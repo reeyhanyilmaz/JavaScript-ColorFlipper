@@ -15,13 +15,11 @@ nav {
     font-size: 30px;
     width: 100%;
     display: flex;
-    /* position: fixed; */
     height: 5rem;
     display: flex;
     align-items: center;    
     padding-left: 200px;
     box-shadow: 0 0 20px 0 rgba(82, 102, 117, 0.5); 
-    /* box-shadow: let(--dark-shadow); */
     background-color: white;
     color: #192a51;
 }
@@ -72,4 +70,21 @@ button{
 button:hover {
     color:#d5c6e0;
     background-color:#192a51 ;
+}
+
+
+/*responsive*/
+@media only screen and (max-width: 768px){
+
+    nav {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 15px;
+    }
+
+    .hex {
+        font-size: 40px;
+    }
 }
