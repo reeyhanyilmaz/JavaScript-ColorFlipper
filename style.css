@@ -6,6 +6,7 @@
 
 body {
     font-family:'Nunito', sans-serif;
+    background-color: #967aa1;
 }
 
 
@@ -19,8 +20,9 @@ nav {
     display: flex;
     align-items: center;    
     padding-left: 200px;
-    /* box-shadow: 0 0 20px 0 rgba(82, 102, 117, 0.5);  */
+    box-shadow: 0 0 20px 0 rgba(82, 102, 117, 0.5); 
     /* box-shadow: let(--dark-shadow); */
+    background-color: white;
     color: #192a51;
 }
 
@@ -44,13 +46,11 @@ main {
     align-items: center;
     min-height: calc(100vh - 5rem);
     place-items: center;
-    background-color: blueviolet;
 }
 
 .hex {
     font-size: 50px;
-    color: white;
-    margin-left: -160px;
+    color: #d5c6e0;
 }
 
 button{
