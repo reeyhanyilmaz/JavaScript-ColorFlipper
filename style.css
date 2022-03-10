@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Nunito', sans-serif;
+}
+
+nav {
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    height: 100px;
+    display: flex;
+    align-items: center;    
+    padding-left: 200px;
+    box-shadow: 0 0 20px 0 rgba(82, 102, 117, 0.5); 
+    color: #192a51;
+}
+
+nav span {
+    display: flex;
+    align-items: center;
+    padding: 0 5px 0 8px;
+}
+
+nav span img {
+    width: 35px;
+    height: 35px;
+}
